@@ -46,7 +46,7 @@ class VacanciesSpider(scrapy.Spider):
     def _parse_detail(self, response: Response, **kwargs) -> dict[str]:
         page_data = response.css(".job-post-page > div.row")
         vacancy_info = [s.strip() for s in page_data.css(".text-small > .text-muted::text").extract()]
-        keywords = [key for key in KEYWORDS if key in page_data.get().lower()]
+        keywords = [KEYWORDS[key] for key in KEYWORDS.keys() if any(word in page_data.get().lower() for word in key)]
         date = vacancy_info[1].split()[2::]
         for keyword in keywords:
             yield {
