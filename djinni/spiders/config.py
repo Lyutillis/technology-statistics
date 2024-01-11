@@ -1,4 +1,5 @@
 KEYWORDS = {
+    ("python",): "Python",
     ("html",): "HTML",
     ("css",): "CSS",
     ("javascript", "js"): "JS",
@@ -18,7 +19,7 @@ KEYWORDS = {
     ("mongo", "mongodb"): "MongoDB",
     ("node", "nodejs"): "NodeJS",
     ("vue", "vuejs"): "VueJS",
-    ("docker",): "docker",
+    ("docker",): "Docker",
     ("rest",): "REST",
     ("django rest", "drf"): "DRF",
     ("fastapi",): "FastAPI",
@@ -28,8 +29,8 @@ KEYWORDS = {
     ("api",): "API",
     ("aws",): "AWS",
     ("linux",): "Linux",
-    ("ai", "artificial intelligence"): "AI",
-    ("ml", "machine learning"): "ML",
+    ("AI", "artificial intelligence"): "AI",
+    ("ML", "machine learning"): "ML",
     ("oop",): "OOP",
     ("networking",): "Networking",
     ("fullstack",): "Fullstack",
@@ -40,6 +41,9 @@ KEYWORDS = {
     ("pandas",): "Pandas",
     ("pytest",): "Pytest",
     ("unittest",): "UnitTest",
+    ("scraping", "scrape"): "Scraping",
+    ("scrapy",): "Scrapy",
+    ("selenium",): "Selenium",
 }
 
 MONTHES = {
