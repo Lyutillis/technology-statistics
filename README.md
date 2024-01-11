@@ -40,3 +40,8 @@ To run the project follow these steps:
 Now you can overwiev the statistics.
 
 # Examples
+![image](https://github.com/Lyutillis/technology-statistics/assets/62535257/e278c4e8-3726-460b-80ac-a904408c00e9)
+![image](https://github.com/Lyutillis/technology-statistics/assets/62535257/6de516e0-201e-47c3-8add-0cff4ffd6346)
+![image](https://github.com/Lyutillis/technology-statistics/assets/62535257/8f29fe69-f7f0-4ad3-ad7f-dd49e21d9fa8)
+![image](https://github.com/Lyutillis/technology-statistics/assets/62535257/6aacd522-147a-4a07-a676-0fe9d4900be0)
+
