@@ -2,7 +2,7 @@ import scrapy
 from scrapy.http import Response
 import datetime
 
-from djinni.spiders.config import KEYWORDS, MONTHES
+from djinni_parser.spiders.config import KEYWORDS, MONTHES
 
 
 class VacanciesSpider(scrapy.Spider):
