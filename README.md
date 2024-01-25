@@ -24,7 +24,8 @@ To run the project follow these steps:
 `python3 -m venv venv`
 
 4. Acivate venv:
-`source venv/Scripts/activate`
+- MAC `source venv/Scripts/activate`
+- Windows `cd venv/Scripts/activate` -> `. activate`
 
 5. Install requirements:
 `pip3 install -r requirements.txt`
