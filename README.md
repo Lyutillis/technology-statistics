@@ -20,22 +20,19 @@ To run the project follow these steps:
 2. Clone it:
 `git clone <here goes the HTTPS link you could copy on github repositiry page>`
 
-3. Create a new branch:
-`git checkout -b <new branch name>`
-
-4. Create virtual environment:
+3. Create virtual environment:
 `python3 -m venv venv`
 
-5. Acivate venv:
+4. Acivate venv:
 `source venv/Scripts/activate`
 
-6. Install requirements:
+5. Install requirements:
 `pip3 install -r requirements.txt`
 
-7. Scrape Data from "Djinni":
+6. Scrape Data from "Djinni":
 `scrapy crawl vacancies -O technologies.csv`
 
-8. Run the main.ipynb Jupyter Notebook cells.
+7. Run the main.ipynb Jupyter Notebook cells.
 
 Now you can overwiev the statistics.
 
