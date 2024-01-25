@@ -1,14 +1,14 @@
-# technology-statistics
-This project combines web scraping with data-analysys.
+# Technology statistics
+This project uses Scrapy to get data on Python vacancies from Djinni and parses defined technologies and skills. In the second part of the project, there are several plots that show the most popular technologies depending on the required experience.
 
 In the "/djinni" folder there is a scraper written with Scrapy that creates dataset with info on all python-related vacancies.
 The columns are: 
 - `technology` - the name of technology present in vacancy description. The keywords are taken from dict in `/djinni/spiders/config.py`.
-- `title` - The name of vacancy.
+- `title` - The name of the vacancy.
 - `location` - Where the company is situated.
 - `type` - Remote/Office.
 - `experience` - Years of experience required to apply.
-- `english` - Required english-level or None if not stated.
+- `english` - Required English-level or None if not stated.
 - `datetime` - Date when the vacancy was posted.
 - `views` - Number of views.
 - `applicants` - Number of applicants.
@@ -20,7 +20,7 @@ To run the project follow these steps:
 2. Clone it:
 `git clone <here goes the HTTPS link you could copy on github repositiry page>`
 
-3. Create virtual environment:
+3. Create a virtual environment:
 `python3 -m venv venv`
 
 4. Acivate venv:
@@ -35,7 +35,7 @@ To run the project follow these steps:
 
 7. Run the main.ipynb Jupyter Notebook cells.
 
-Now you can overwiev the statistics.
+Now you can overview the statistics.
 
 # Examples
 ![image](https://github.com/Lyutillis/technology-statistics/assets/62535257/e278c4e8-3726-460b-80ac-a904408c00e9)
